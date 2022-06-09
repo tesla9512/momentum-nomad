@@ -1,0 +1,14 @@
+.list {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.todo {
+  font-size: 22px;
+}
+
+.todo_button {
+  margin-right: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+}

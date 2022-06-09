@@ -1,0 +1,64 @@
+@import "todo.css";
+@import "clock.css";
+
+.hidden {
+  display: none;
+}
+.align-center {
+  text-align: center;
+}
+
+#weather {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 8px;
+  margin-left: 12px;
+  font-size: 24px;
+}
+
+#greeting {
+  font-size: 36px;
+}
+
+input {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 36px;
+  color: aliceblue;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+
+img {
+  /* Set rules to fill background */
+  min-height: auto;
+  min-width: auto;
+
+  /* Set up proportionate scaling */
+  width: 100vw;
+  height: 100vh;
+
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: auto;
+
+  z-index: -2;
+}
+
+body {
+  color: aliceblue;
+}
